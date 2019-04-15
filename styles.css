@@ -1,0 +1,56 @@
+html,
+body {
+    height: 100%;
+    background-color: #659DBD;
+}
+
+body {
+    text-align: center;
+    display: flex;
+    color: #fff9ad;
+}
+
+a {
+    color: #FBEEC1;
+}
+
+a:hover {
+    color: #DDAD86;
+}
+
+#page-name:hover {
+    text-decoration: none;
+    color: #DDAD86;
+}
+
+.nav-link:hover, .active {
+    text-decoration: none;
+    background-color: #DDAD86;
+    color: white;
+    border-radius: 27px;
+}
+
+#page-name {
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+main .btn {
+    background-color: #DDAD86;
+    color: white;
+    border-radius: 27px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.btn:hover {
+    color: #DDAD86;
+    text-decoration: none;
+    background-color: #fbeec1;
+}
+
+.fab {
+    font-size: x-large;
+}
+
