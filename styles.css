@@ -23,7 +23,7 @@ a:hover {
     color: #DDAD86;
 }
 
-.nav-link:hover, .active {
+header .nav-link:hover, .current {
     text-decoration: none;
     background-color: #DDAD86;
     color: white;
@@ -54,3 +54,25 @@ main .btn {
     font-size: x-large;
 }
 
+
+/* .container {
+    margin-top: 20px;
+  } */
+
+
+  .page {
+    display: none;
+  }
+
+  .page-active {
+    display: block;
+  }
+
+  .pagination>li {
+      display: inline;
+  }
+
+.pagination>li.first, .pagination>li.last {
+      display: none;
+  }
+  
