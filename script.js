@@ -1,12 +1,15 @@
+var date  = new Date();
+var currentMonth = date.getMonth() + 1;
+
 
 $( document ).ready(function() {
     $('#pagination-demo').twbsPagination({
         totalPages: 12,
         // the current page that show on start
-        startPage: 1,
+        startPage: currentMonth,
         
         // maximum visible pages
-        visiblePages: 12,
+        visiblePages: 3,
         
         initiateStartPageClick: true,
         

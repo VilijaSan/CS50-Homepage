@@ -1,5 +1,4 @@
-html,
-body {
+html, body {
     height: 100%;
     background-color: #F1F0FF;
 }
@@ -54,27 +53,25 @@ main .btn {
     font-size: x-large;
 }
 
-
-/* .container {
-    margin-top: 20px;
-  } */
-
-
-  .page {
+.page {
     display: none;
-  }
+}
 
-  .page-active {
+.page-active {
     display: block;
-  }
+}
 
-  .pagination>li {
-      display: inline;
-  }
+.pagination {
+    padding-top: 5rem;
+}
+
+.pagination>li {
+    display: inline;
+}
 
 .pagination>li.first, .pagination>li.last {
-      display: none;
-  }
+    display: none;
+}
 
 .page-link {
     color: #443266;
@@ -88,39 +85,36 @@ main .btn {
     background-color: #F1F0FF;
 }
 
-  #pagination-demo > li.page.active > a {
-      background-color: #F1F0FF;
-      color: #443266;
-      font-weight: bolder;
-  }
+#pagination-demo>li.page.active>a {
+    background-color: #F1F0FF;
+    color: #443266;
+    font-weight: bolder;
+}
 
-  .featurette-divider {
-    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
-  }
-  
-  /* Thin out the marketing headings */
-  .featurette-heading {
+.featurette-divider {
+    margin: 5rem 0;
+}
+
+.featurette-heading {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -.05rem;
-  }
-  
-  
-  /* RESPONSIVE CSS
-  -------------------------------------------------- */
-  
-  /* @media (min-width: 40em) {
-    .featurette-heading {
-      font-size: 50px;
-    }
-  } */
-  
-  /* @media (min-width: 62em) {
-    .featurette-heading {
-      margin-top: 7rem;
-    }
-  } */
+}
 
-  /* .row, .col-md-7, .col-md-5, .col-md-5 a img {
-      height: 17rem;
-  } */
+@media (min-width: 768px) {
+    .featurette-heading.book {
+        margin-top: 7rem;
+    }
+}
+
+@media (min-width: 363px) {
+    .navbar {
+        display: inline;
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar {
+        display: flex;
+    }
+}
