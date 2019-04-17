@@ -23,7 +23,7 @@ $( document ).ready(function() {
         last: 'Last',  
 
         // carousel-style pagination
-        loop: false,
+        loop: true,
         
         // callback function
         onPageClick: function (event, page) {

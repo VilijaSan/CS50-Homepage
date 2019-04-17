@@ -1,31 +1,31 @@
 html,
 body {
     height: 100%;
-    background-color: #659DBD;
+    background-color: #F1F0FF;
 }
 
 body {
     text-align: center;
     display: flex;
-    color: #fff9ad;
+    color: #443266;
 }
 
 a {
-    color: #FBEEC1;
+    color: #443266;
 }
 
 a:hover {
-    color: #DDAD86;
+    color: #8C489F;
 }
 
 #page-name:hover {
     text-decoration: none;
-    color: #DDAD86;
+    color: #8C489F;
 }
 
 header .nav-link:hover, .current {
     text-decoration: none;
-    background-color: #DDAD86;
+    background-color: #8C489F;
     color: white;
     border-radius: 27px;
 }
@@ -37,7 +37,7 @@ header .nav-link:hover, .current {
 }
 
 main .btn {
-    background-color: #DDAD86;
+    background-color: #8C489F;
     color: white;
     border-radius: 27px;
     padding-left: 1.5rem;
@@ -45,9 +45,9 @@ main .btn {
 }
 
 .btn:hover {
-    color: #DDAD86;
+    color: #F1F0FF;
     text-decoration: none;
-    background-color: #fbeec1;
+    background-color: #443266;
 }
 
 .fab {
@@ -75,8 +75,24 @@ main .btn {
 .pagination>li.first, .pagination>li.last {
       display: none;
   }
-  
 
+.page-link {
+    color: #443266;
+    background-color: #F1F0FF;
+    border: none;
+}
+
+.page-link:hover {
+    color: #443266;
+    font-weight: bolder;
+    background-color: #F1F0FF;
+}
+
+  #pagination-demo > li.page.active > a {
+      background-color: #F1F0FF;
+      color: #443266;
+      font-weight: bolder;
+  }
 
   .featurette-divider {
     margin: 5rem 0; /* Space out the Bootstrap <hr> more */
