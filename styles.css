@@ -17,22 +17,11 @@ a:hover {
     color: #8C489F;
 }
 
-#page-name:hover {
-    text-decoration: none;
-    color: #8C489F;
-}
-
 header .nav-link:hover, .current {
     text-decoration: none;
     background-color: #8C489F;
     color: white;
     border-radius: 27px;
-}
-
-#page-name {
-    font-size: 1.75rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 
 main .btn {
@@ -55,6 +44,17 @@ main .btn {
 
 .page {
     display: none;
+}
+
+#page-name {
+    font-size: 1.75rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+#page-name:hover {
+    text-decoration: none;
+    color: #8C489F;
 }
 
 .page-active {
