@@ -17,6 +17,11 @@ a:hover {
     color: #8C489F;
 }
 
+.nav-link {
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+}
+
 header .nav-link:hover, .current {
     text-decoration: none;
     background-color: #8C489F;
@@ -83,6 +88,10 @@ main .btn {
     color: #443266;
     font-weight: bolder;
     background-color: #F1F0FF;
+}
+
+.page-link:focus {
+    box-shadow: none;
 }
 
 #pagination-demo>li.page.active>a {
