@@ -1,12 +1,8 @@
-var date  = new Date();
-var currentMonth = date.getMonth() + 1;
-
-
 $( document ).ready(function() {
     $('#pagination-demo').twbsPagination({
         totalPages: 12,
         // the current page that show on start
-        startPage: currentMonth,
+        startPage: new Date().getMonth() + 1,
         
         // maximum visible pages
         visiblePages: 3,
@@ -31,7 +27,7 @@ $( document ).ready(function() {
         // callback function
         onPageClick: function (event, page) {
             $('.page-active').removeClass('page-active');
-          $('#page'+page).addClass('page-active');
+            $('#page' + page).addClass('page-active');
         },
 
         formatPageLabel: (itemText) => {
@@ -67,6 +63,5 @@ $( document ).ready(function() {
         pageClass: 'page',
         activeClass: 'active',
         disabledClass: 'disabled'
-        
     });
 });
